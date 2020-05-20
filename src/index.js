@@ -6,7 +6,7 @@ import DropdownModule from './components/dropdown';
  */
 const HeaderComponent = (function () {
 	const SELECTOR_DATA_TOGGLE = '[data-toggle="collapse"]';
-	const CLASS_NAME_SHOW = 'menu-open';
+	const CLASS_NAME_SHOW = 'is-open';
 
 	let $root, $menuToggleBtns;
 

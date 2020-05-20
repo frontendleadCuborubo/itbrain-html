@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 @import '~normalize.css';
 @import './variables';
+@import './mixins';
 
 * {
 	margin: 0;
@@ -21,7 +22,7 @@ html {
 body {
 	font-family: $font-family-base;
 	font-size: $font-size-base;
-	font-weight: 400;
+	font-weight: normal;
 	line-height: $line-height-base;
 	color: #fff;
 }

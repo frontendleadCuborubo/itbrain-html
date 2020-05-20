@@ -5,7 +5,6 @@
 
 	&__link {
 		font-weight: bold;
-		line-height: 22px;
 	}
 
 	&__submenu {
@@ -18,9 +17,6 @@
 		}
 
 		a {
-			font-weight: normal;
-			line-height: 22px;
-
 			&:hover {
 				color: $warning-color;
 			}
@@ -51,16 +47,18 @@
 				content: '';
 				position: absolute;
 				left: 0;
-				bottom: -10px;
+				bottom: -20px;
 				width: 100%;
 				height: 2px;
 				opacity: 0;
 				background-color: $warning-color;
+				@include transition();
 			}
 
 			&:hover,
 			&.show {
 				&:before {
+					bottom: -10px;
 					opacity: 1;
 				}
 			}
