@@ -1,4 +1,5 @@
 import './scss/index.scss';
+import './polyfills';
 import DropdownModule from './components/dropdown';
 
 /**
