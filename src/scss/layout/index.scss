@@ -1,0 +1,32 @@
+@import './header';
+
+.container {
+	width: 1470px;
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.page-wrap {
+	display: flex;
+	min-height: 100%;
+	flex-direction: column;
+}
+
+.page-main {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	flex-shrink: 0;
+	flex-grow: 1;
+	flex-basis: auto;
+}
+
+.icon,
+.icon svg {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}

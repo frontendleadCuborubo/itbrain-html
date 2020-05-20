@@ -1,0 +1,26 @@
+.social-list {
+	display: flex;
+
+	a {
+		display: inline-block;
+		margin-right: 20px;
+	}
+}
+
+@media (max-width: 991px) {
+	.social-list {
+		padding: 10px 20px;
+		border-bottom: 1px solid #eae9ec;
+	}
+}
+
+@media (min-width: 992px) {
+	.social-list {
+		padding-top: 5px;
+		margin-right: 25px;
+
+		a {
+			margin-right: 27px;
+		}
+	}
+}

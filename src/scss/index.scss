@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import '~normalize.css';
+@import './variables';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+body {
+	font-family: $font-family-base;
+	font-size: $font-size-base;
+	font-weight: 400;
+	line-height: $line-height-base;
+	color: #fff;
+}
+
+/**
+* Components
+*/
+@import './components/dropdown';
+@import './components/btn';
+@import './components/hero';
+
+/**
+* Layout
+*/
+@import './layout/';
