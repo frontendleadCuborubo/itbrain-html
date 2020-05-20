@@ -1,2 +1,6 @@
 # itbrain-html
-Test markup
+Для установки пакетов выполнить npm install.
+
+Сборка dev версии - npm run dev
+Сборка prod версии - npm run build
+
